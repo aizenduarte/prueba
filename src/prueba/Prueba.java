@@ -4,8 +4,8 @@
  * and open the template in the editor.
  */
 package prueba;
-import prueba.aritmetica.NumA;
 
+import prueba.aritmetica.NumA;
 
 /**
  *
@@ -19,8 +19,13 @@ public class Prueba {
     public static void main(String[] args) {
         // TODO code application logic here
         NumA numerito = new NumA();
+<<<<<<< HEAD
         System.out.println("sumando "+numerito.sumar(5, 5));
         System.out.println("restar "+ numerito.restar(8, 9));
+=======
+        System.out.println("sumando " + numerito.sumar(5, 5,5));
+        System.out.println("multiplique :) " + numerito.multiplicar(5, 5));
+>>>>>>> 3a8b07b88abd7db334b84a63183ed0ba47e3c8d3
     }
-    
+
 }
