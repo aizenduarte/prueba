@@ -20,6 +20,7 @@ public class Prueba {
         // TODO code application logic here
         NumA numerito = new NumA();
         System.out.println("sumando "+numerito.sumar(5, 5));
+        System.out.println("restar "+ numerito.restar(10, 5));
     }
     
 }
